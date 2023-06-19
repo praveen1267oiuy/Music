@@ -1,0 +1,64 @@
+
+body{
+    background-color: rgb(190, 170, 144);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 75px;
+    background-color: black;
+    color: whitesmoke
+}
+nav ul li {
+    padding: 0 12px;
+}
+.brand img {
+   
+    width: 75px;
+    height: 55px;
+    padding: 0 8px;
+  }
+  .brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+  }
+  .container{
+    min-height: 75vh;
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 30px;
+    background-image: url('images.jpeg') ;
+  }
+.bottom{
+    position: sticky;
+    height: 80px;
+    background-color: rgb(33, 16, 16);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#myProgressBar{
+    width: 80vw;
+}
+
+.image-button {
+    display: inline-block;
+    margin: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
